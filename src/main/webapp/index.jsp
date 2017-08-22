@@ -6,7 +6,7 @@
 <body>
 <h2>Hello World!</h2>
 <ul>
-  <li>随机数4：<%= java.lang.Math.random()*100000 %></li>
+  <li>随机数5：<%= java.lang.Math.random()*100000 %></li>
   <li>sessionid：<%= request.getSession().getId() %></li>
 </ul>
 
